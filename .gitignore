@@ -1,0 +1,30 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datasets
+data/raw/
+data/processed/
+data/bhram-il/
+data/challenge/
+
+# Model weights and checkpoints
+models/
+checkpoints/
+
+# Training outputs
+logs/
+runs/
+wandb/
+
+# Temporary files
+*.log
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
